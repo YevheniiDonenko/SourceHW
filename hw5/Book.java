@@ -85,40 +85,40 @@ public class Book {
 		Book book4 = new Book("Философия Java", "Жека", "Exclusive.inc", 2015, 85, 35.1, "Твердый");
 		Book[] arr = { book1, book2, book3, book4 };
 
-//		// Вывести все книги
-//		for (int i = 0; i < arr.length; i++) {
-//			System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
-//					+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " " + arr[i].getBinding());
-//		}
-////		Книги заданного автора
-//		System.out.println("Книги А.С. Пушкина");
-//
-//		for (int i = 0; i < arr.length; i++) {
-//			if (arr[i].getAuthor() == "А.С. Пушкин") {
-//				System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
-//						+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " "
-//						+ arr[i].getBinding());
-//			}
-//		}
-////		Книги заданного издательства
-//		System.out.println("Книги издательства Exclusive.inc:");
-//		for (int i = 0; i < arr.length; i++) {
-//			if (arr[i].getPublishingHouse() == "Exclusive.inc") {
-//				System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
-//						+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " "
-//						+ arr[i].getBinding());
-//			}
-//		}
+		// Вывести все книги
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
+					+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " " + arr[i].getBinding());
+		}
+		//Книги заданного автора
+		System.out.println("Книги А.С. Пушкина");
+
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i].getAuthor() == "А.С. Пушкин") {
+				System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
+						+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " "
+						+ arr[i].getBinding());
+			}
+		}
+		//Книги заданного издательства
+		System.out.println("Книги издательства Exclusive.inc:");
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i].getPublishingHouse() == "Exclusive.inc") {
+				System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
+						+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " "
+						+ arr[i].getBinding());
+			}
+		}
 //		// Книги, вышедшие после заданного года
-//		System.out.println("Книги, вышедшие после 1980 года:");
-//		for (int i = 0; i < arr.length; i++) {
-//			if (arr[i].getDate() > 1980) {
-//				System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
-//						+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " "
-//						+ arr[i].getBinding());
-//			}
-//		}
-	System.out.println(arr[i].toString());
+		System.out.println("Книги, вышедшие после 1980 года:");
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i].getDate() > 1980) {
+				System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
+						+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " "
+						+ arr[i].getBinding());
+			}
+		}
+	
 	}
 	
 
