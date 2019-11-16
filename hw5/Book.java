@@ -79,6 +79,7 @@ public class Book {
 	}
 
 	public static void main(String[] args) {
+		
 		Book book1 = new Book("Водка", "А.С. Пушкин", "Пушок", 1996, 314, 19.50, "Мягкий");
 		Book book2 = new Book("ЗОЖ", "Жека", "Exclusive.inc", 1970, 219, 20, "Твердый");
 		Book book3 = new Book("Польза курения", "А.С. Пушкин", "Пушок", 2010, 400, 14.40, "Мягкий");
@@ -86,6 +87,7 @@ public class Book {
 		Book[] arr = { book1, book2, book3, book4 };
 
 		// Вывести все книги
+		System.out.println("Все книги:");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i].getName() + " " + arr[i].getAuthor() + " " + arr[i].getPublishingHouse() + " "
 					+ arr[i].getDate() + " " + arr[i].getPages() + " " + arr[i].getPrice() + " " + arr[i].getBinding());
